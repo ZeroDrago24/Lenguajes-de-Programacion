@@ -1,0 +1,97 @@
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #0d6efd;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.navbar-dark {
+    background-color: #198754;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #adb5bd !important;
+}
+
+.container {
+    padding: 20px;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.section-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffebab;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.section-card-image {
+    flex: 1;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.section-card-content {
+    flex: 2;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-card-content h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.section-card-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.section-card-content ul {
+    padding: 0;
+    margin: 10px 0 0 0;
+    list-style-type: none;
+}
+
+.section-card-content ul li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .section-card {
+        flex-direction: column;
+    }
+    .section-card-image {
+        max-width: 100%;
+    }
+}
